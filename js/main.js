@@ -26,6 +26,9 @@
       e.preventDefault();
       var btn = form.querySelector('button[type=submit]');
       var status = form.querySelector('.form-status');
+      var typ = form.querySelector('[name=ceremony_type]').value, dt = form.querySelector('[name=date]').value, nm = form.querySelector('[name=name]').value;
+      form.querySelector('[name=subject]').value = 'Enquiry from ' + nm + ': ' + typ + (dt ? ', ' + dt : '');
+      form.querySelector('[name=replyto]').value = form.querySelector('[name=email]').value;
       btn.disabled = true; btn.textContent = 'Sending\u2026';
       status.textContent = '';
       fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } })

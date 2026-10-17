@@ -20,7 +20,7 @@ Static site: one page (`index.html`) plus `privacy.html`. No build step, no data
 2. **About Anthony copy**: written (family details in). Add where he is based and a line on his background if wanted.
 3. **Portrait**: `assets/img/anthony.jpg` is the FuturFaith registration photo, converted to warm monochrome because the room was lit red. A proper headshot in daylight would be better; replace the file with one of the same name.
 4. **Testimonials**: section `<!-- ===== TESTIMONIALS ===== -->`. Three real reviews with first names and ceremony type.
-5. **Contact form (Web3Forms, free, no account needed)**: set up and the access key is in `index.html`. Enquiries arrive at anthonybrophyceremonies@gmail.com and the visitor lands on `thank-you.html`. The Web3Forms dashboard (log in with that Gmail) shows submissions and lets you change the destination address.
+5. **Contact form (Web3Forms, free, no account needed)**: set up and the access key is in `index.html`. Enquiries arrive at anthonybrophyceremonies@gmail.com and the visitor lands on `thank-you.html`. The Web3Forms dashboard (log in with that Gmail) shows submissions and lets you change the destination address. Gmail may file the first ones as spam: add a Gmail filter for the Web3Forms sender address with "Never send it to Spam".
 6. **Photos**: the hero, ceremony cards, candle band and contact photo are free Unsplash stock (Unsplash licence, free for commercial use, no credit required), saved in `assets/img/`. Fine to launch with; swap for Anthony's own photos as they come in by replacing the file with one of the same name.
 7. **Reviews**: the three reviews are illustrative, written to show the layout. Replace with real ones before launch.
 8. **Domain**: anthonybrophyceremonies.ie (confirmed).
