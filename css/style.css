@@ -117,9 +117,9 @@ section{padding:104px 0}
 .badges{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
 .badge{display:inline-flex;align-items:center;gap:.55rem;padding:.6rem 1.05rem;border:1px solid var(--gold);border-radius:4px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--navy);text-decoration:none;background:var(--cream)}
 .badge svg{width:15px;height:15px;color:var(--gold-dark)}
-.badge-ff{background:var(--navy);color:var(--cream);border-color:var(--navy);gap:.8rem}
-.badge-ff img{height:22px;width:auto}
-.badge-ff:hover{background:var(--navy-deep)}
+.badge-ff{display:inline-flex;align-items:center}
+.badge-ff img{height:46px;width:auto;border-radius:10px;box-shadow:var(--shadow-sm)}
+.badge-ff:hover img{transform:translateY(-2px)}
 
 /* How it works */
 .how{position:relative;background:var(--cream)}
